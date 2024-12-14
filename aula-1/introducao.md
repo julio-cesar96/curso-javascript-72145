@@ -82,7 +82,7 @@ Para começar a usar JavaScript, basta abrir o navegador e usar o console de des
 
 ## Atividade: Encontre e Corrija o Erro
 
-### Código Original:
+### Código:
 ```javascript
 let nome = "Ana";
 const idade = 25;
