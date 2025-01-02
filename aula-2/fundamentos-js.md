@@ -52,6 +52,7 @@ Operadores relacionais comparam dois valores e retornam um booleano (`true` ou `
 | `==`     | Igualdade de valor         | `5 == '5'`       | `true`    |
 | `===`    | Igualdade estrita          | `5 === '5'`      | `false`   |
 | `!=`     | Diferente                  | `5 != '5'`       | `false`   |
+| `!==`    | Estritamente diferente     | `5 != '5'`       | `false`   |
 | `<`      | Menor que                  | `3 < 5`          | `true`    |
 | `>`      | Maior que                  | `10 > 6`         | `true`    |
 
