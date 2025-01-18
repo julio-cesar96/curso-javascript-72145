@@ -2,7 +2,6 @@
 
 Neste arquivo, exploraremos os conceitos de arrays e objetos em JavaScript, detalhando suas diferenças, aplicações, métodos úteis e exemplos práticos para cada tópico. 
 
----
 
 ## Estrutura e Manipulação de Arrays
 
