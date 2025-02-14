@@ -1,25 +1,46 @@
-// let numero = prompt("Olá, digite um número de 1 a 5");
+// if ... else - se ... entao
 
-// if (numero == 1) {
-//     alert("O número digitado foi um");
-// } else if (numero == 2) {
-//     alert("O numero digitado foi dois");
-// } else if (numero == 3) {
-//     alert("O numero digitado foi três");
-// } else if (numero == 4) {
-//     alert("O numero digitado foi quatro");
-// } else if (numero == 5) {
-//     alert("O numero digitado foi cinco");
-// } else {
-//     alert("Por favor, digite um numero de 1 a 5");
-// }
+let idade = 28;
 
-
-let numero = prompt("Digite um numero de 1 a 5:");
-
-if (numero % 2 == 0) {
-    alert("O número é par")
+if (idade >= 18) { // retorna um valor booleano true
+    // caso a condição seja verdadeira, ou seja, neste exemplo, a variavel idade é maior ou igual a 18
+    console.log("É maior de idade, pode tirar a habilitação");
 } else {
-    alert("O número é impar");
+    // caso a condicão seja falsa, ou seja, a variavel idade for menor que 18
+    console.log("É menor de idade, não pode tirar a habilitação")
 }
 
+// valores booleanos - true ou false
+
+let estaChovendo = false;
+
+if (estaChovendo) {
+    console.log("Levar guarda-chuva");
+} else {
+    console.log("Passar protetor solar");
+}
+
+// operadores relacionais
+
+let altura = 140;
+let comChuva = false;
+if (altura >= 120 || !!comChuva) {
+    console.log("Pode entrar na montanha-russa!");
+} else {
+    console.log("Desculpe, você é muito baixo.");
+}
+
+// operadores lógicos
+
+
+let nivel = 12;
+let mana = 30;
+let temPedraMagica = true;
+
+
+//    true                      true
+if (nivel >= 10 && (mana > 50 || temPedraMagica)) {
+    console.log("Você pode usar a espada mágica!");
+} else {
+    console.log("Você não está qualificado para usar a espada mágica.");
+}
