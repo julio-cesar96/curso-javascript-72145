@@ -1,0 +1,19 @@
+{
+  "name": "curso-javascript-72145",
+  "version": "1.0.0",
+  "description": "curso de javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julio-cesar96/curso-javascript-72145.git"
+  },
+  "author": "Julio Cesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julio-cesar96/curso-javascript-72145/issues"
+  },
+  "homepage": "https://github.com/julio-cesar96/curso-javascript-72145#readme"
+}
